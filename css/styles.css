@@ -1,0 +1,93 @@
+*{
+	box-sizing: border-box;
+	font-family: cursive;
+}
+
+
+header{
+	text-align: center;
+	font-size: 175%;
+	margin-bottom:95px;
+	
+}
+.row{
+	display: table;
+	width: 100%;
+
+}
+
+section{
+	border: 1px solid black;
+	margin: 10px;
+	padding: 10px;
+	padding-right:0;
+	background: gray;
+	position: relative;	
+}
+
+p{
+	width: 100%;
+    margin-block-end: 0;
+}
+
+
+
+nav{
+	border: 1px solid black;
+	width: 100px;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.labelC{
+	background: pink;
+	color: black;
+}
+.labelB{
+	background: red;
+	color: white;
+}
+.labelS{
+	background: gold;
+	color: black;
+}
+@media (min-width:992px){
+	.dsk{
+		width: 33.33%;
+		float: left;
+	}
+	.on{
+
+		margin-right: 0;
+	}
+
+	.tw{
+
+		margin-right: 0;
+	}
+}
+
+@media (min-width:768px) and (max-width:991px){
+
+	.tab{
+		width: 50%;
+		float: left;	
+	}
+
+	.tab3{
+		float: left;
+		width: 100%;
+	}
+}
+
+
+@media (max-width:767px){
+	.pho{
+		width: 98%;
+		margin-right: 10px;
+		float: left;
+	}
+}
+
